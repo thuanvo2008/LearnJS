@@ -18,6 +18,6 @@ const updateTask = (req, res) => {
     res.send('update task')
 }
 
-module.express = {
-    getAllTasks,createTask,getTask,deleteTask,updateTask
+module.exports = {
+    getAllTasks,createTask,getTask,updateTask,deleteTask
 }
