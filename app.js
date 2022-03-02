@@ -11,6 +11,6 @@ app.get('/api/courses', (req, res) => {
         res.send([1,2,3])
     });
 
-app.use("/api/v1/tasks", tasks);
+app.use("/api/v1/tasks", tasks)
 const port = 3000;
-app.listen(port, () => console.log(`listening on port ${port}`));
+app.listen(port, () => console.log(`listening on port ${port}`))
